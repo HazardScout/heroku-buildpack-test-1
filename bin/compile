@@ -4,10 +4,9 @@ echo "-----> Starting Compile by Josh"
 
 cd $1
 
-echo "foo $(date)" >> data.txt
+echo "node -e \"console.log(new Date().getTime())\"" > data.txt
 
 ls -a
-
 
 
 echo "-----> lscpu"
