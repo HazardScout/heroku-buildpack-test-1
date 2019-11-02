@@ -6,7 +6,7 @@ cd $1
 
 echo "foo $(date)" >> data.txt
 
-ls
+ls -a
 
 
 
