@@ -8,6 +8,25 @@ echo "foo $(date)" >> data.txt
 
 ls
 
+
+
+echo "-----> lscpu"
+lscpu
+
+
+echo "-----> nproc --all"
+nproc --all
+
+
+echo "-----> grep -c ^processor /proc/cpuinfo"
+grep -c ^processor /proc/cpuinfo
+
+
+
+echo "getconf _NPROCESSORS_ONLN"
+getconf _NPROCESSORS_ONLN
+
+
 echo "-----> End Compile by Josh"
 
 exit 0
