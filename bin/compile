@@ -1,0 +1,11 @@
+#!/bin/sh
+
+echo "-----> Starting Compile by Josh"
+
+echo "foo $(date)" >> data.txt
+
+ls
+
+echo "-----> End Compile by Josh"
+
+exit 0
