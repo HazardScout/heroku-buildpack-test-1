@@ -6,4 +6,6 @@ cd $1
 
 node -e "console.log(new Date().getTime())" > data.txt
 
+node -e "var os = require('os');console.log(os.cpus().length + ' cores');"
+
 exit 0
